@@ -26,19 +26,19 @@ const ExperienceCard = ({ experience }) => {
         <div className='flex justify-center items-center w-full h-full'>
           <img
             src={experience.icon}
-            alt={experience.company_name}
+            alt={experience.Discovery ISP}
             className='w-[90%] h-[90%] object-contain'
           />
         </div>
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-white text-[24px] font-bold'>{Customer Support Executive}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          {experience.Discovery ISP}
         </p>
       </div>
 
